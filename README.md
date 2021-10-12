@@ -15,3 +15,6 @@ These items can be added to a shopping cart in various iterations (sizes, colour
 Since the files consist only of HTML, CSS, JS and some images, the entire "html" folder can be copied into a new root folder and opened in Chrome from there.
 
 ### Usage ###
+Basic site navigation is done through the navbar.
+Home : Tabs for Store/About/Register
+[Home tab view](
