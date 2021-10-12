@@ -16,5 +16,50 @@ Since the files consist only of HTML, CSS, JS and some images, the entire "html"
 
 ### Usage ###
 Basic site navigation is done through the navbar.
-Home : Tabs for Store/About/Register
-[Home tab view](
+
+#### Static pages ####
+
+Home screen contains tabs for Store/About/Register.
+*Below: Home screen*
+
+![Home screen](https://github.com/alley-hen/online-store/blob/d6fefaf0d3532a2011f1c6030a4ab2a57f7ab254/html/readme/readme%20Home.jpg)
+Other static pages such as "About Us" and "Register" are similar.
+
+Users can navigate to the store page, either by clicking the "Store" button on the home page or by using the navbar links.
+
+### Store ###
+
+*Below: Store Catalogue of all products*
+![Store Page]()
+
+Users can add an item to their cart by either using Quickadd button or clicking on the image or item name.
+The quickadd button has a default quantity of 1, size of A5, and colour of black.
+
+Clicking on the image or item name will open the item page, where the number, size and colour of frame can be selected. Clicking add to cart will add the item/s to the cart and close the dialog. Clicking the close button will close the dialog and not save any selections.
+
+*Below: Item dialog page*
+![Item dialog page]()
+
+Once all required items have been added to cart, the user can navigate to the cart by clicking on the cart icon in the nav bar.
+
+*Below: Cart page*
+![Cart page]()
+
+All cart items are displayed in a table on the cart page. Items can be individually deleted witht he delete buttons, or the entire cart can be emptied using the empty cart button.
+A discount coupon can be added (pre-defined example values have associated discount amounts).
+A method of shipping can also be selected using the dropdown menu
+
+Once all of the above are selected, clickin the calculate total button will display the different totals in the Cart Total div.
+
+*Below: Cart Total div with values*
+![Cart Total]()
+
+Clicking the confirm order button generates an order number and confirmation message.
+
+*Below: Order confirmed*
+![Order confirmed]()
+
+### Credits ###
+
+I was the only one who worked on this project directly.
+Feedback was provided at various points by Hyperion mentors.
