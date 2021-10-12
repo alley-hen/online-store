@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/6fbd2cec32.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="images/logo.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;600;700&family=Roboto+Mono:wght@100;400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="css\styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Store - Fractal</title>
+</head>
+
+<body onload="storeLoad()">
+    <!-- NAV -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <a class="navbar-brand" href="home.html" id="logo">FRACTAL</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="store.html">Store</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="register.html">Register</a>
+                    </li>
+                </ul>
+                <form class="">
+                    <input class="form-control input-sm" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit"><i class="fas fa-search"></i></button>
+                </form>
+                <div id="nav_cart">
+                    <button type="button" class="btn btn-primary"><a class="nav-link" href="cart.html">
+                            <i class="fas fa-shopping-cart"></i> <span class="badge bg-secondary">0</span></a>
+                    </button>
+                    <button type="button" class="btn btn-primary">
+                        <span class="Help">Help</span><i class="fas fa-chevron-down"></i> <ul id="helpUL" style="display: none;">
+                            <li><a>Contact Support</a></li>
+                            <li><a>Help Files</a></li>
+                            <li><a>Call Center</a></li>
+                        </ul>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+
+        <!-- BANNER -->
+        <header>
+            <div class="container">
+                <div id="banner" class="row">
+                    <div class="col-lg-12">
+                        <h2>GET 20% OFF ALL FRAMES</h2>
+                        <p>Until 30 December 2021
+                            (Use coupon code TWENTYPERCENT)
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="shipping">
+            <h5>New orders receive 10% discount (Use coupon code TENPERCENT)</h5>
+        </div>
+        <div class="heading">
+            <h3>Frames and Photobooks</h3>
+        </div>
+
+        <!-- ***********************************************************************CATALOGUE***************************************************************************************** -->
+        <section class="catalogue">
+            <div id="catalogue_nav" class="container">
+                <div id="startCatalogueDiv" class="row">
+                   
+                </div>
+            </div>
+        </section>
+        <!-- PRICING TABLE -->
+        <section id="price_table">
+            <h4>Pricing Table</h4>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <td>Frame Size</td>
+                        <td>Price</td>
+                        <td>Lead Time</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>A5</td>
+                        <td>R599</td>
+                        <td>3 days</td>
+                    </tr>
+                    <tr>
+                        <td>A4</td>
+                        <td>R699</td>
+                        <td>3 days</td>
+                    </tr>
+                    <tr>
+                        <td>A3</td>
+                        <td>R799</td>
+                        <td>3 days</td>
+                    </tr>
+                    <tr>
+                        <td>A2</td>
+                        <td>R899</td>
+                        <td>3 days</td>
+                    </tr>
+                    <tr>
+                        <td>A1</td>
+                        <td>R999</td>
+                        <td>3 days</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <!-- page footer -->
+    <footer>
+        <div id="page_footer">
+            <div class="links">
+                <ul>
+                    <li><a href="">Careers</a></li>
+                    <li><a href="">Sitemap</a></li>
+                    <li><a href="">FAQs</a></li>
+                    <li><a href="">NPO affiliations</a></li>
+                </ul>
+            </div>
+            <div id="icons">
+                <a href="https://instagram.com" target="blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://unsplash.com" target="blank"> <i class="fab fa-unsplash"></i></a>
+                <a href="https://reddit.com" target="blank"> <i class="fab fa-reddit"></i></a>
+            </div>
+            <p>Copyright A.H.- Aug 2021</p>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+        <script src="js/site.js"></script>
+
+</body>
+
+</html>
