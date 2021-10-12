@@ -30,7 +30,7 @@ Users can navigate to the store page, either by clicking the "Store" button on t
 ### Store ###
 
 *Below: Store Catalogue of all products*
-![Store Page]()
+![Store Page](https://github.com/alley-hen/online-store/blob/b23ee3eff3824ce0f7c06a7baa2248c1b4483034/html/readme/readme%20Store1.jpg)
 
 Users can add an item to their cart by either using Quickadd button or clicking on the image or item name.
 The quickadd button has a default quantity of 1, size of A5, and colour of black.
@@ -38,12 +38,12 @@ The quickadd button has a default quantity of 1, size of A5, and colour of black
 Clicking on the image or item name will open the item page, where the number, size and colour of frame can be selected. Clicking add to cart will add the item/s to the cart and close the dialog. Clicking the close button will close the dialog and not save any selections.
 
 *Below: Item dialog page*
-![Item dialog page]()
+![Item dialog page](https://github.com/alley-hen/online-store/blob/b23ee3eff3824ce0f7c06a7baa2248c1b4483034/html/readme/readme%20Store2.jpg)
 
 Once all required items have been added to cart, the user can navigate to the cart by clicking on the cart icon in the nav bar.
 
 *Below: Cart page*
-![Cart page]()
+![Cart page](https://github.com/alley-hen/online-store/blob/b23ee3eff3824ce0f7c06a7baa2248c1b4483034/html/readme/readme%20Cart1.jpg)
 
 All cart items are displayed in a table on the cart page. Items can be individually deleted witht he delete buttons, or the entire cart can be emptied using the empty cart button.
 A discount coupon can be added (pre-defined example values have associated discount amounts).
@@ -52,12 +52,12 @@ A method of shipping can also be selected using the dropdown menu
 Once all of the above are selected, clickin the calculate total button will display the different totals in the Cart Total div.
 
 *Below: Cart Total div with values*
-![Cart Total]()
+![Cart Total](https://github.com/alley-hen/online-store/blob/b23ee3eff3824ce0f7c06a7baa2248c1b4483034/html/readme/readme%20Cart2.jpg)
 
 Clicking the confirm order button generates an order number and confirmation message.
 
 *Below: Order confirmed*
-![Order confirmed]()
+![Order confirmed](https://github.com/alley-hen/online-store/blob/b23ee3eff3824ce0f7c06a7baa2248c1b4483034/html/readme/readme%20Cart3.jpg)
 
 ### Credits ###
 
